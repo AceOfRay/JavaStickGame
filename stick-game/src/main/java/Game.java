@@ -22,6 +22,7 @@ public class Game {
         this.sticks = new Pile(Integer.valueOf(sticks));
         this.turn = true;
         this.promptPlayer();
+        scanner.close();
     }
 
     public boolean checkGame() {
